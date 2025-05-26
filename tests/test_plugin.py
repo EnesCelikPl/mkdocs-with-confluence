@@ -12,4 +12,4 @@ def test_plugin_loads_config():
     }
 
     result = plugin.load_config(config)
-    assert result == ([], [])  # Hata ve uyarı yoksa test geçer
+    assert result == ([], [])  
