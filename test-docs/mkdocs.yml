@@ -1,8 +1,9 @@
+site_name: Test Docs
+nav:
+  - Home: index.md
+
 plugins:
-  - search
-  # - with-confluence:
-  #     url: https://your-confluence-url
-  #     space: TEST
-  #     parent_id: 123456
-  #     token: YOUR_API_TOKEN
-  #     username: your_email@example.com
+  - mkdocs-with-confluence:
+      confluence_url: https://enesdocs.atlassian.net/wiki
+      confluence_space_key: ~7120209db0e822c35f4468b7b66a0d04d1f0a0
+      confluence_parent_page: Home
