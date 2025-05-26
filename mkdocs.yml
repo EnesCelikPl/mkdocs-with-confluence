@@ -1,0 +1,13 @@
+site_name: MkDocs Confluence Test
+
+plugins:
+  - search
+  - mkdocs-with-confluence:
+      host_url: https://example.atlassian.net/wiki/rest/api/content
+      space: DEMO
+      parent_id: 123456
+      username: example@example.com
+      api_key: your_api_token
+
+theme:
+  name: readthedocs
