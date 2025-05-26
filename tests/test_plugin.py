@@ -12,4 +12,8 @@ def test_plugin_loads_config():
     }
 
     result = plugin.load_config(config)
-    assert result == ([], [])  
+    assert result == ([], [])
+
+def test_basic_plugin_behavior():
+    plugin = MkdocsWithConfluence()
+    assert plugin is not None
