@@ -1,9 +1,0 @@
-site_name: Test Docs
-nav:
-  - Home: index.md
-
-plugins:
-  - mkdocs-with-confluence:
-      confluence_url: https://enesdocs.atlassian.net/wiki
-      confluence_space_key: ~7120209db0e822c35f4468b7b66a0d04d1f0a0
-      confluence_parent_page: Home
