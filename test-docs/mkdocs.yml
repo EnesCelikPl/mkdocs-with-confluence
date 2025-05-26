@@ -1,0 +1,8 @@
+plugins:
+  - search
+  # - with-confluence:
+  #     url: https://your-confluence-url
+  #     space: TEST
+  #     parent_id: 123456
+  #     token: YOUR_API_TOKEN
+  #     username: your_email@example.com
